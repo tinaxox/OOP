@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author codedepo
+ *
+ */
+module javatest {
+}
