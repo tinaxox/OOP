@@ -16,7 +16,7 @@ public class Kosarkas extends Sportista{
 	public void dodajStatistiku(Statistika s) throws SportistaNijeOdgovarajuci{
 		switch (s.getTipStatistike()) {
 		case KOSEVI: 
-			brojGolova = s.getOstvareniUcinak();
+			brojKoseva = s.getOstvareniUcinak();
 			break;
 		case ASISTENCIJE: 
 			brojAsistencija = s.getOstvareniUcinak();
